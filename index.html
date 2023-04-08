@@ -5,65 +5,130 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=!, initial-scale=1.0">
+ <link rel="icon" href="./ico/favicon5.ico">
+ <link rel="stylesheet" href="./pages/index.css">
  <title>Лапы & Хвост</title>
 </head>
 
 <body>
  <header class="header"></header>
  <main class="main">
-  <section class="partnership">
-   <h2 class="partnership__title">Станьте нашим партнером и помогите животным</h2>
-    <h3 class="partnership__subtitle">
-     Если у вас есть желание, вы можете оказать содействие
-     и принять участие в помощи нашим животным. 
-    </h3>
-    <form action="#" class="form">
-     <fieldset class="form__fieldset">
-      <input type="text" placeholder="Организация" name="">
-      <input type="text" placeholder="Ваше имя" name="">
-      <input type="tel" placeholder="Номер телефона" name="">
-      <input type="email" placeholder="E-mail" name="email">
-      <textarea type="text" placeholder="Ваше предложение" name="">
-
-      </textarea>
-     </fieldset>
-    </form>
-<button type="submit">
- Отправить
-</button>
-<div class="akcept">
- <input type="checkbox" name="" id="">
- <p class="akcept__text">
-  Ознакомлен и согласен с политикой обработки персональных данных 
- </p>
-</div>
-  </section>
-  <section class="contacts">
-   <h2 class="contacts__title">Контакты</h2>
-   <div class="contacts__map">
-
-   </div>
-   <div class="contacts__adress">
-    <p class="contacts__text">м. Коньково</p> 
-    <p class="contacts__text">ул. Островитянова, 10, стр. 3</p>
-    <p class="contacts__text">+7-906-756-26-26</p>
-    <p class="contacts__text">Пн-вс: 09:00-21:00</p>
-    <p class="contacts__text">Lapy@hvost.ru</p>
-    <div class="contacts__icons">
-     <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
-     <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
-     <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+  <section class="gallery">
+    <h2 class="gallery__title">Ищут себе новый дом</h2>
+    <div class="gallery__choice">
+      <div class="gallery__animals">
+        <input type="radio" class="gallery__animal gallery__animal_cat" id="cat" name="animal" checked>
+        <input type="radio" class="gallery__animal gallery__animal_dog" id="dog" name="animal">
+      </div>
+      <div class="gallery__of-sex">
+        <input type="radio" class="gallery__sex" id="male" name="sex" checked>
+        <input type="radio" class="gallery__sex" id="female" name="sex">
+      </div>
+      <button class="gallery__off"></button>
+      <button class="gallery__liked"></button>
     </div>
-   </div>
+    <ul class="gallery__elements">
+      <li class="gallery__element">
+        <img src="./images/Фонарик.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Фонарик</p>
+          <p class="gallery__age">2 мес</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Валет.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Валет</p>
+          <p class="gallery__age">3 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Пирожок.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Пирожок</p>
+          <p class="gallery__age">3 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Чапай.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Чапай</p>
+          <p class="gallery__age">4 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Астерикс.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Астерикс</p>
+          <p class="gallery__age">2 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Маркиза.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_female">Маркиза</p>
+          <p class="gallery__age">2 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Васька.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Васька</p>
+          <p class="gallery__age">5 лет</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Василек.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Василек</p>
+          <p class="gallery__age">6 мес</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Моська.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_female">Моська</p>
+          <p class="gallery__age">1 год</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Гречка.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_female">Гречка</p>
+          <p class="gallery__age">3 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      <li class="gallery__element">
+        <img src="./images/Барон.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Барн</p>
+          <p class="gallery__age">6 лет</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      <li class="gallery__element">
+        <img src="./images/Марко.jpg" alt="#" class="gallery__photo">
+        <div class="gallery__underscribe">
+          <p class="gallery__name gallery__name_male">Марко</p>
+          <p class="gallery__age">4 года</p>
+          <button type="button" class="gallery__like"></button>
+        </div>
+      </li>
+      </li>
+    </ul>
   </section>
+
  </main>
  <footer class="footer">
-  <div class="logo">
-   <img src="./images/logo.svg" alt="" class="footer__logo">
-   <div class="copiright">
-    
-   </div>
-  </div>
  </footer>
 
 </body>
