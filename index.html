@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=!, initial-scale=1.0">
- <title>Лапы & Хвост</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=!, initial-scale=1.0">
+  <title>Лапы & Хвост</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
 </head>
-
-<body>
- <header class="header"></header>
- <main class="main">
-  <section class="partnership">
-   <h2 class="partnership__title">Станьте нашим партнером и помогите животным</h2>
-    <h3 class="partnership__subtitle">
-     Если у вас есть желание, вы можете оказать содействие
-     и принять участие в помощи нашим животным.
-    </h3>
-    <form action="#" class="form">
-     <fieldset class="form__fieldset">
-      <input type="text" placeholder="Организация" name="">
-      <input type="text" placeholder="Ваше имя" name="">
-      <input type="tel" placeholder="Номер телефона" name="">
-      <input type="email" placeholder="E-mail" name="email">
-      <textarea type="text" placeholder="Ваше предложение" name="">
+<body class="page">
+  <header class="header"></header>
+  <main class="main">
+    <section class="partnership">
+      <h2 class="partnership__title">Станьте нашим партнером и помогите животным</h2>
+      <h3 class="partnership__subtitle">
+        Если у вас есть желание, вы можете оказать содействие
+        и принять участие в помощи нашим животным.
+      </h3>
+      <form action="#" class="form">
+        <fieldset class="form__fieldset">
+          <input class="form__field" type="text" placeholder="Организация" name="">
+          <input class="form__field" type="text" placeholder="Ваше имя" name="">
+          <input class="form__field" type="tel" placeholder="Номер телефона" name="">
+          <input class="form__field" type="email" placeholder="E-mail" name="email">
+          <textarea class="form__field" type="text" placeholder="Ваше предложение" name="">
 
       </textarea>
-     </fieldset>
-    </form>
-<button type="submit">
- Отправить
-</button>
-<div class="akcept">
- <input type="checkbox" name="" id="">
- <p class="akcept__text">
-  Ознакомлен и согласен с политикой обработки персональных данных
- </p>
-</div>
-  </section>
-  <section class="contacts">
-   <h2 class="contacts__title">Контакты</h2>
-   <div class="contacts__map">
+        </fieldset>
+      </form>
+      <button class="form__button" type="submit">
+        Отправить
+      </button>
+      <div class="partnership__akcept">
+        <input class="partnership__checkbox" type="checkbox" name="" id="">
+        <p class="partnership__text">
+          Ознакомлен и согласен с политикой обработки персональных данных
+        </p>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__title">Контакты</h2>
+      <div class="contacts__map">
 
-   </div>
-   <div class="contacts__adress">
-    <p class="contacts__text">м. Коньково</p>
-    <p class="contacts__text">ул. Островитянова, 10, стр. 3</p>
-    <p class="contacts__text">+7-906-756-26-26</p>
-    <p class="contacts__text">Пн-вс: 09:00-21:00</p>
-    <p class="contacts__text">Lapy@hvost.ru</p>
-    <div class="contacts__icons">
-     <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
-     <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
-     <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+      </div>
+      <div class="contacts__adress">
+        <p class="contacts__text">м. Коньково</p>
+        <p class="contacts__text">ул. Островитянова, 10, стр. 3</p>
+        <p class="contacts__text">+7-906-756-26-26</p>
+        <p class="contacts__text">Пн-вс: 09:00-21:00</p>
+        <p class="contacts__text">Lapy@hvost.ru</p>
+        <div class="contacts__icons">
+          <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
+          <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
+          <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img src="./images/logo.svg" alt="" class="footer__logo">
+    <div class="footer__copiright">
+      &copy; 2023 Лапы & Хвост
+      Все права защищены и охраняются законом
     </div>
-   </div>
-  </section>
- </main>
- <footer class="footer">
-  <div class="logo">
-   <img src="./images/logo.svg" alt="" class="footer__logo">
-   <div class="footer__copiright">
+    <div class="background">
 
-   </div>
-  </div>
- </footer>
-
+    </div>
+    <div class="footer__contacts">
+      <p class="footer__contact">Адрес:</p>
+      <p class="footer__contact">м. Коньково</p>
+      <p class="footer__contact">ул. Островитянова, 10, стр. 3</p>
+      <p class="footer__contact">Телефон:</p>
+      <p class="footer__contact">+7 906 756-26-26</p>
+      <p class="footer__contact">Пн-вс: 09:00-21:00</p>
+      <p class="footer__contact">Почта:</p>
+      <p class="footer__contact">Lapy@hvost.ru</p>
+    </div>
+    <div class="footer__icons">
+      <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
+      <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
+      <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+    </div>
+  </footer>
 </body>
-
 </html>

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"),
+    url("../fonts/Comfortaa-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Comfortaa-Medium.woff2") format("woff2"),
+    url("../fonts/Comfortaa-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Comfortaa-SemiBold.woff2") format("woff2"),
+    url("../fonts/Comfortaa-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Comfortaa-Bold.woff2") format("woff2"),
+    url("../fonts/Comfortaa-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Philosopher-Regular.woff2") format("woff2"),
+    url("../fonts/Philosopher-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Caveat-Regular.woff2") format("woff2"),
+    url("../fonts/Caveat-Regular.woff") format("woff");
+}
+
