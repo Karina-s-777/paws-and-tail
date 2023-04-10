@@ -18,3 +18,178 @@
   font-weight: 400;
   color: #000000;
 }
+
+.page__header {
+  padding: 0 60px;
+}
+
+.page__promo {
+  margin: 0 0 276px 0;
+  padding: 0 60px;
+}
+
+.page__idea {
+  margin-bottom: 160px;
+  padding: 0 60px;
+}
+
+.nav {
+  font-size: 16px;
+  line-height: 1.1;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.logo-header {
+  max-width: 144px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list-left {
+  align-self: start;
+  display: flex;
+  flex-basis: 511px;
+  gap: 53px;
+  border-bottom: 1px solid #974C00;
+  padding: 32px 0 10px 0;
+}
+
+.menu-list-right {
+  display: flex;
+  gap: 24px;
+  align-self: start;
+  border-bottom: 1px solid #974C00;
+  flex-basis: 497px;
+  justify-content: end;
+  padding: 28px 0 10px 0;
+}
+
+.menu__item:nth-child(4) {
+  margin: 0 0 0 22px;
+}
+
+.menu__link {
+  color: #974C00;
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.menu__link-image {
+  width: 21px;
+}
+
+.main {
+}
+
+.promo {
+  position: relative;
+}
+
+.promo__title {
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Caveat';
+  max-width: 575px;
+  padding: 76px 0 0 0;
+  font-size: 80px;
+  color: #974C00;
+  left: 1.1;
+  margin: 0 0 45px 0;
+}
+
+.promo__title-span {
+  line-height: 1.1;
+  font-weight: 400;
+  font-family: 'Philosopher';
+  text-transform: uppercase;
+}
+
+.promo__text {
+  font-size: 24px;
+  line-height: 1.1;
+  color: #000;
+  margin: 0 0 219px 0;
+}
+
+.promo__links {
+}
+
+.promo__link {
+  width: 190px;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #000;
+  text-decoration: none;
+  padding: 19px 42px;
+  background: linear-gradient(180deg, #FFC581 0%, #FF8401 100%);
+  box-shadow: inset -4.16346e-16px -1px 6.79944px #A25300, inset 4.16346e-16px 6.79944px 6.79944px #FF9000;
+  border-radius: 30px;
+  margin: 0 45px 0 0;
+}
+
+.promo__link:last-of-type{
+  margin: 0;
+}
+
+.promo__title-span:last-of-type{
+  margin: 0 0 0 115px;
+}
+
+.promo__image {
+  position: absolute;
+  top: -110px;
+  right: 0px;
+  z-index: -1;
+}
+
+.idea {
+}
+
+.idea__title {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #974C00;
+  margin-bottom: 60px;
+}
+
+.idea__box {
+  display: flex;
+}
+
+.idea__image {
+  margin: 0 60px 0 0;
+}
+
+.idea__box-text {
+  padding: 10px 0 0 0;
+  max-width: 526px;
+  min-height: 300px;
+}
+
+.idea__text {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+}
+
+.idea__text:nth-of-type(4) {
+  margin: 0 0 26px 0;
+}
+
+.idea__cite {
+  font-family: 'Caveat';
+  font-size: 24px;
+  max-width: 159px;
+  margin: 0;
+  line-height: 0.95;
+}
