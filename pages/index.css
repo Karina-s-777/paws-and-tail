@@ -34,7 +34,7 @@
   padding: 11px;
 }
 
-.gallery__animal:active {
+.active_animal {
   background: url(./../ico/button_on.svg) no-repeat;
   padding: 11px;
 }
@@ -53,18 +53,18 @@
   margin-left: 17px;
 }
 
-.gallery__sex {
+.gallery__gender {
   background: url(./../ico/button_off.svg) no-repeat center;
   padding: 11px;
   position: relative;
 }
 
-.gallery__sex:active {
+.active_gender {
   background: url(./../ico/button_on.svg) no-repeat center;
   padding: 11px;
 }
 
-.gallery__sex_male::after {
+.gallery__gender_male::after {
   content: '';
   background: url(./../ico/venus_braun.svg) no-repeat center;
   padding: 27px;
@@ -73,7 +73,7 @@
   left: -11px;
 }
 
-.gallery__sex_female::after {
+.gallery__gender_female::after {
   content: '';
   background: url(./../ico/mars.svg) no-repeat center;
   padding: 27px;
@@ -92,11 +92,20 @@
   padding: 15px 37px;
 }
 
-.gallery__liked {
+.gallery__likes {
   background: url(./../ico/Likeoff.svg) no-repeat center;
   background-size: contain;
-  padding: 25px;
+  padding: 23px 27px;
   position: relative;
+  transform: translateY(5px);
+}
+
+.gallery__liked {
+  background: url(./../ico/Likeon.svg) no-repeat center;
+  background-size: contain;
+  padding: 23px 27px;
+  position: relative;
+  transform: translateY(5px);
 }
 
 .gallery__circle {
@@ -182,7 +191,7 @@
 }
 
 .gallery__like_on {
-  background: url(./../ico/Likeon.svg);
+  background: url(./../ico/Likeon.svg) no-repeat center;
 }
 
 .gallery__next-page {
