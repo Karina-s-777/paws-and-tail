@@ -89,7 +89,7 @@
 
 .gallery__off {
   background: url(./../ico/off.svg) no-repeat center;
-  padding: 12px 37px;
+  padding: 15px 37px;
   transform: translateX(-20px);
 }
 
@@ -200,17 +200,40 @@
 
 .gallery__next-page {
   margin: 60px auto 160px;
-  max-width: 318px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 20px;
 }
 
 .gallery__next-page-buttom {
-  width: 100%;
+  width: 320px;
   height: 58px;
   background: linear-gradient(rgba(255 197 129), rgba(255 132 1));
   border-radius: 35px;
   border: #A25300;
   box-shadow: inset 1px 5px 15px rgba(255 132 1);
   font-size: 18px;
+}
+
+.gallery__prev-page {
+  display: none;
+  color: #974C00;
+  border: 1px solid #974C00;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #FFFCFA;
+}
+
+.gallery__prev-page:hover {
+  background-color: #FFC581;
+  box-shadow: inset 1px 2px 5px #FF8401;
+}
+
+.gallery__page-two {
+  display: none;
 }
 
 .ways__title {
