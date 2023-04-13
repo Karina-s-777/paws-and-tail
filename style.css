@@ -1,9 +1,8 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
 
 .page {
   max-width: 1280px;
-  height: 100vh;
   margin: 0 auto;
   background-color: #FFFCFA;
   font-family: 'Comfortaa', Arial, sans-serif;
@@ -37,7 +36,6 @@
   padding: 7px 28px;
   margin-left: -27px;
 }
-
 
 .active_animal {
   background: url(./../ico/button_on.svg) no-repeat;
@@ -137,7 +135,7 @@
   display: grid;
   list-style: none;
   justify-items: center;
-  gap: 31px 10px;
+  gap: 30px 10px;
   grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   padding: 0 60px;
   margin: 0;
