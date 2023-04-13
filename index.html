@@ -76,69 +76,78 @@
         Если у вас есть желание, вы можете оказать содействие
         и принять участие в помощи нашим животным.
       </h3>
-      <form action="#" class="form">
+      <form action="#" class="form" name="form" novalidate>
         <fieldset class="form__fieldset">
-          <input class="form__field" type="text" placeholder="Организация" name="">
-          <input class="form__field" type="text" placeholder="Ваше имя" name="">
-          <input class="form__field" type="tel" placeholder="Номер телефона" name="">
-          <input class="form__field" type="email" placeholder="E-mail" name="email">
-          <textarea class="form__field" type="text" placeholder="Ваше предложение" name="">
-
-      </textarea>
+          <input class="form__field" type="text" placeholder="Организация" name="job" id="form-job" minlength="1" maxlength="200" required>
+          <span class="form__error form-job-error"></span>
+          <input class="form__field" type="text" placeholder="Ваше имя" name="name" id="form-name" minlength="1" maxlength="30" required>
+          <span class="form__error form-name-error"></span>
+          <input class="form__field" type="tel" placeholder="Номер телефона" name="phone" id="form-phone" required>
+          <span class="form__error form-phone-error"></span>
+          <input class="form__field" type="email" placeholder="E-mail" name="email" id="form-email" required>
+          <span class="form__error form-email-error"></span>
+          <textarea class="form__field form__field_type_area" placeholder="Ваше предложение"></textarea>
         </fieldset>
       </form>
-      <button class="form__button" type="submit">
+      <button class="partnership__button" type="submit" aria-label="Отправить">
         Отправить
       </button>
       <div class="partnership__akcept">
-        <input class="partnership__checkbox" type="checkbox" name="" id="">
+        <label for="check" class="partnership__label">
+          <input class="partnership__checkbox" type="checkbox" name="checkbox" id="check">
+          <span class="partnership__visible-checkbox"></span>
+        </label>
         <p class="partnership__text">
-          Ознакомлен и согласен с политикой обработки персональных данных
+          Ознакомлен и согласен с <span class="partnership__text-color">политикой обработки
+            персональных данных</span>
         </p>
       </div>
     </section>
     <section class="contacts">
       <h2 class="contacts__title">Контакты</h2>
-      <div class="contacts__map">
-
-      </div>
-      <div class="contacts__adress">
-        <p class="contacts__text">м. Коньково</p>
-        <p class="contacts__text">ул. Островитянова, 10, стр. 3</p>
-        <p class="contacts__text">+7-906-756-26-26</p>
-        <p class="contacts__text">Пн-вс: 09:00-21:00</p>
-        <p class="contacts__text">Lapy@hvost.ru</p>
-        <div class="contacts__icons">
-          <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
-          <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
-          <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+      <div class="contacts__wrap">
+        <iframe class="contacts__map"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A035010b143dfcfd5c27d87f29b7b772939ee5153be72fd52f280bc63f6b23508&amp;source=constructor"></iframe>
+        <div class="contacts__adress">
+          <p class="contacts__text">м. Коньково</p>
+          <p class="contacts__text">ул. Островитянова, 10, стр. 3</p>
+          <p class="contacts__text">+7-906-756-26-26</p>
+          <p class="contacts__text">Пн-вс: 09:00-21:00</p>
+          <p class="contacts__text">Lapy@hvost.ru</p>
+          <div class="contacts__icons">
+            <a href="#"><img src="./images/icon-wa.svg" alt="ватсап" class="contacts__icon"></a>
+            <a href="#"><img src="./images/icon-tg.svg" alt="телеграмм" class="contacts__icon contacts__icon_type_size"></a>
+            <a href="#"><img src="./images/icon-ig.svg" alt="инстаграмм" class="contacts__icon"></a>
+          </div>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <img src="./images/logo.svg" alt="" class="footer__logo">
-    <div class="footer__copiright">
-      &copy; 2023 Лапы & Хвост
-      Все права защищены и охраняются законом
+    <div class="footer__block">
+      <img src="./images/logo.svg" alt="Лапы & Хвост" class="footer__logo">
+      <p class="footer__copiright">&copy; 2023 Лапы & Хвост</p>
+      <p class="footer__copiright footer__copiright_type_indent">Все права защищены и охраняются законом</p>
     </div>
-    <div class="background">
+    <div class="footer__background">
 
     </div>
-    <div class="footer__contacts">
-      <p class="footer__contact">Адрес:</p>
+    <div class="footer__wrap">
+      <div class="footer__contacts">
+      <p class="footer__contact footer__contact_type_color">Адрес:</p>
       <p class="footer__contact">м. Коньково</p>
-      <p class="footer__contact">ул. Островитянова, 10, стр. 3</p>
-      <p class="footer__contact">Телефон:</p>
+        <p class="footer__contact footer__contact_type_bottom">ул. Островитянова, 10, стр. 3</p>
+      <p class="footer__contact footer__contact_type_color">Телефон:</p>
       <p class="footer__contact">+7 906 756-26-26</p>
-      <p class="footer__contact">Пн-вс: 09:00-21:00</p>
-      <p class="footer__contact">Почта:</p>
+      <p class="footer__contact footer__contact_type_bottom">Пн-вс: 09:00-21:00</p>
+      <p class="footer__contact footer__contact_type_color">Почта:</p>
       <p class="footer__contact">Lapy@hvost.ru</p>
     </div>
-    <div class="footer__icons">
-      <img src="./images/icon-wa.svg" alt="" class="contacts__icon">
-      <img src="./images/icon-tg.svg" alt="" class="contacts__icon">
-      <img src="./images/icon-ig.svg" alt="" class="contacts__icon">
+      <div class="footer__icons">
+        <a href="#"><img src="./images/icon-wa.svg" alt="ватсап" class="footer__icon"></a>
+        <a href="#"><img src="./images/icon-tg.svg" alt="телеграмм" class="footer__icon footer__icon_type_size-s"></a>
+        <a href="#"><img src="./images/icon-ig.svg" alt="инстаграм" class="footer__icon"></a>
+      </div>
     </div>
   </footer>
   <div class="popup popup__volunteers">
@@ -175,4 +184,5 @@
     </div>
   </div>
 </body>
+
 </html>

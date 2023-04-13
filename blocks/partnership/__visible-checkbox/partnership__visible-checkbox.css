@@ -1,0 +1,14 @@
+.partnership__checkbox + .partnership__visible-checkbox {
+  margin-top: 4px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #FFFCFA;
+  border: 1px solid #FFFCFA;
+}
+
+.partnership__checkbox:checked + .partnership__visible-checkbox {
+  background-image: url(../../../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
