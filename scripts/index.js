@@ -66,8 +66,3 @@ listOfLikes.forEach(like => {
     e.target.classList.toggle('gallery__like_on')
   })
 })
-
-
-const btns = document.querySelectorAll('button');
-
-console.log(btns.lenght);
