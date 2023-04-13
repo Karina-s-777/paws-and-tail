@@ -1,23 +1,45 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/partnership/partnership.css);
+@import url(./blocks/partnership/__title/partnership__title.css);
+@import url(./blocks/partnership/__subtitle/partnership__subtitle.css);
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__fieldset/form__fieldset.css);
+@import url(./blocks/form/__field/form__field.css);
+@import url(./blocks/form/__field/_type/form__field_type_area.css);
+@import url(./blocks/form/__error/form__error.css);
+@import url(./blocks/partnership/__button/partnership__button.css);
+@import url(./blocks/partnership/__akcept/partnership__akcept.css);
+@import url(./blocks/partnership/__text/partnership__text.css);
+@import url(./blocks/partnership/__text-color/partnership__text-color.css);
+@import url(./blocks/partnership/__checkbox/partnership__checkbox.css);
+@import url(./blocks/partnership/__visible-checkbox/partnership__visible-checkbox.css);
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__title/contacts__title.css);
+@import url(./blocks/contacts/__wrap/contacts__wrap.css);
+@import url(./blocks/contacts/__map/contacts__map.css);
+@import url(./blocks/contacts/__adress/contacts__adress.css);
+@import url(./blocks/contacts/__text/contacts__text.css);
+@import url(./blocks/contacts/__icons/contacts__icons.css);
+@import url(./blocks/contacts/__icon/contacts__icon.css);
+@import url(./blocks/contacts/__icon/_type/contacts__icon_type_size.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__copiright/footer__copiright.css);
+@import url(./blocks/footer/__copiright/_type/footer__copiright_type_indent.css);
+@import url(./blocks/footer/__contact/footer__contact.css);
+@import url(./blocks/footer/__contact/_type/footer__contact_type_color.css);
+@import url(./blocks/footer/__wrap/footer__wrap.css);
+@import url(./blocks/footer/__icons/footer__icons.css);
+@import url(./blocks/footer/__icon/footer__icon.css);
+@import url(./blocks/footer/__icon/_type/footer__icon_type_size.css);
+@import url(./blocks/footer/__contacts/footer__contacts.css);
+@import url(./blocks/footer/__contact/_type/footer__contact_type_bottom.css);
+@import url(./blocks/footer/__background/footer__background.css);
 
 
 
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: #FFFCFA;
-  font-family: 'Comfortaa', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 400;
-  color: #000000;
-}
 
 .page__header {
   padding: 0 60px;

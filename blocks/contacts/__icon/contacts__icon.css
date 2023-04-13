@@ -1,0 +1,8 @@
+.contacts__icon {
+  width: 31px;
+  height: 31px;
+}
+
+.contacts__icon:hover {
+  cursor: url(../../../images/1758-pusheen-upset-pointer.svg) ,pointer;
+}

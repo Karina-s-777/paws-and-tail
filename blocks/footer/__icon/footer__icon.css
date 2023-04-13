@@ -1,0 +1,8 @@
+.footer__icon {
+  width: 26px;
+  height: 26px;
+}
+
+.footer__icon:hover {
+  cursor: url(../../../images/1758-pusheen-upset-pointer.svg) ,pointer;
+}

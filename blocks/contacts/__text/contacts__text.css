@@ -1,0 +1,10 @@
+.contacts__text {
+  font-size: 18px;
+  line-height: 1.11;
+  margin: 0 0 20px 0;
+  max-width: 304px;
+}
+
+.contacts__text:last-of-type {
+  margin: 0 0 26px 0;
+}

@@ -1,0 +1,10 @@
+.form__field_type_area {
+  margin-bottom: 74px;
+  min-height: 100px;
+  border-radius: 20px;
+  padding-top: 18.7px;
+  max-width: 523px;
+  resize: none;
+  box-sizing: border-box;
+  line-height: inherit;
+}
