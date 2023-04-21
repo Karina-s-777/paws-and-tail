@@ -1,0 +1,9 @@
+.popup__button {
+  padding: 19px 64px;
+  background: linear-gradient(180deg, #FFC581 0%, #FF8401 100%);
+  box-shadow: inset -4.16346e-16px -1px 6.79944px #A25300, inset 4.16346e-16px 6.79944px 6.79944px #FF9000;
+  border-radius: 30px;
+  border: none;
+  width: 250px;
+  margin: 0 auto 40px;
+}

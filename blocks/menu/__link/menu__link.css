@@ -1,0 +1,7 @@
+.menu__link {
+  color: #974C00;
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  cursor: url(../../../images/1758-pusheen-upset-pointer.svg) ,pointer;
+}

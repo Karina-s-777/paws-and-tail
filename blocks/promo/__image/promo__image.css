@@ -1,0 +1,6 @@
+.promo__image {
+  position: absolute;
+  top: -110px;
+  right: 0px;
+  z-index: -1;
+}

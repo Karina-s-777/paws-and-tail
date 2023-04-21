@@ -1,0 +1,6 @@
+.popup__checkbox-container {
+  max-width: 335px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+}

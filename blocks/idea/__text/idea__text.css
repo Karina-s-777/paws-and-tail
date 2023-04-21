@@ -1,0 +1,9 @@
+.idea__text {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+}
+
+.idea__text:nth-of-type(4) {
+  margin: 0 0 26px 0;
+}

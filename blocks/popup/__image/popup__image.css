@@ -1,0 +1,6 @@
+.popup__image {
+  position: absolute;
+  bottom: 35px;
+  right: 28px;
+  z-index: 0;
+}

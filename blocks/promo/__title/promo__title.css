@@ -1,0 +1,11 @@
+.promo__title {
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Caveat';
+  max-width: 575px;
+  padding: 76px 0 0 0;
+  font-size: 80px;
+  color: #974C00;
+  left: 1.1;
+  margin: 0 0 45px 0;
+}

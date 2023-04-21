@@ -1,0 +1,9 @@
+.menu-right {
+  display: flex;
+  gap: 24px;
+  align-self: start;
+  border-bottom: 1px solid #974C00;
+  flex-basis: 497px;
+  justify-content: end;
+  padding: 28px 0 10px 0;
+}

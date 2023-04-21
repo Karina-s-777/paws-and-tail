@@ -1,0 +1,24 @@
+.promo__link {
+  width: 190px;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #000;
+  text-decoration: none;
+  padding: 19px 42px;
+  background: linear-gradient(180deg, #FFC581 0%, #FF8401 100%);
+  box-shadow: inset -4.16346e-16px -1px 6.79944px #A25300, inset 4.16346e-16px 6.79944px 6.79944px #FF9000;
+  border-radius: 30px;
+  margin: 0 45px 0 0;
+}
+
+.promo__link:hover {
+  cursor: url(../../../images/1758-pusheen-upset-pointer.svg) ,pointer;
+}
+
+.promo__link:last-of-type{
+  margin: 0;
+}
+
+.promo__title-span:last-of-type{
+  margin: 0 0 0 115px;
+}
